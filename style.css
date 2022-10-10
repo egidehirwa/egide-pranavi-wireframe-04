@@ -4,6 +4,20 @@
 	box-sizing: border-box;
 }
 .AboutMe{
-	
+	font-family: 'Open Sans', sans-serif;
+	font: weight 400px;
+	text-align: center;
 }
+p{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.intro{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+
+
+
 
