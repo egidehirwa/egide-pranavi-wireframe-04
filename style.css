@@ -1,11 +1,9 @@
-@font-face {
-    font-family: 'lineIcons';
-    src: url(./assets/fonts/LineIcons.ttf);
-}
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+.AboutMe{
+	
 }
 
