@@ -209,8 +209,8 @@ a:link {
 .shape5 {
     position: absolute;
     left: 0;
-    bottom: 0;
-    width: 150px;
+    bottom: 8%;
+    width: 100px;
 }
 
 .shape6 {
@@ -218,6 +218,22 @@ a:link {
     bottom: 0;
     left: 48%;
     width: 90px;
+}
+
+.line-decoration {
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    width: 180px;
+    height: 2px;
+    background: #764ef9;
+}
+
+.social-icons-wrapper {
+    position: absolute;
+    left: 20%;
+    bottom: 8%;
+    background: #754EF9;
 }
 
 /* About Section Styling */
