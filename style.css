@@ -11,13 +11,16 @@ html {
 /* Header Section Styling */
 
 .header {
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
 }
 
 .about-intro{
@@ -51,9 +54,17 @@ ul {
 	margin-bottom: 16px;
 }
 
+ul li {
+    list-style: none; 
+}
+
 ul li a:link {
     text-decoration: none;
     color: #57585b;
+}
+
+ul li a:hover {
+    color:#754EF9;
 }
 
 .container-about-intro{
@@ -68,6 +79,7 @@ text-align: center;
     background: #fbfbfb;
     position: relative;
     overflow: hidden;
+    padding: 100px 0;
 }
 
 .section-hero-container {
@@ -77,7 +89,7 @@ text-align: center;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .about-paragraph{
@@ -143,13 +155,15 @@ text-align: center;
 
 .hero-heading {
     font-size: 28px;
+    color: #754EF9;
 }
 
 
 .heading-style {
     display: block;
-    font-size: 42px;
-    color: #040404;
+    font-size: 54px;
+    color: #000;
+    margin-top: 5px;
 }
 
 .details-elements{
@@ -159,8 +173,9 @@ text-align: center;
 }
 
 .hero-description {
-    font-size: 14px;
+    font-size: 16px;
     color: #5c5c5c;
+    margin-top: 10px;
 }
 
 .dob{
@@ -173,7 +188,7 @@ text-align: center;
     font-size: 14px;
     background-color: #754EF9;
     display: block;
-    padding: 10px 25px;
+    padding: 15px 25px;
     color: #fff;
     border-radius: 50px;
     width: auto;
@@ -209,7 +224,7 @@ a:link {
 }
 
 .margin-top-m {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 /* Shape Decorations in the Header */
@@ -292,9 +307,35 @@ a:link {
 
 .social-icons-wrapper {
     position: absolute;
-    left: 20%;
-    bottom: 8%;
-    background: #754EF9;
+    left: 11%;
+    bottom: 5%;
+    display: flex;
+    gap: 8px;
+}
+
+.fa-brands {
+    font-size: 15px;
+    color: #c9c9c9;
+}
+
+.fa-brands:hover {
+    color:rgba(117, 78, 249,0.4);
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border:#c9c9c9 solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon:hover {
+    border:rgba(117, 78, 249,0.4) solid 1px;
 }
 
 .span-phone{
@@ -321,7 +362,99 @@ a:link {
 
 /* Section CTA Styling */
 
+.section-cta {
+    padding: 150px 0;
+    background: linear-gradient(0deg, rgba(118, 78, 249, 0.6), rgba(118, 78, 249, 0.6)), url(./assets/images/call-to-action.jpg);
+}
+
+.cta-container {
+    text-align: center;
+    color: white;
+    width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-heading {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.cta-description {
+    max-width: 600px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn-secondary {
+    background: #fff;
+    color:#754ef9;
+}
+
+.btn-outline {
+    background: transparent;
+    color: #fff;
+    border: #fff solid 1px;
+}
+
+
+
 /* Section Recent Works Syling */
+
+.section-recent-works {
+    padding: 150px 0;
+}
+
+.works-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.works-intro {
+    color: #000;
+}
+
+.works-heading {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.works-description {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.works-gallery {
+    margin-top: 30px;
+}
+
+.btn-works {
+    margin: 30px auto 0 auto;
+}
+
+.works-gallery {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+.works-image {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+}
 
 /* Section Pricing Syling */
 
