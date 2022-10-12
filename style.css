@@ -18,35 +18,47 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
+.about-intro{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400px;
+	text-align: center;
 }
 
 /* .section-spacing {
     max-width: 1200px;
     margin: 0 auto;
 } */
-
-nav-wrapper {
-    display: flex;
-    flex-direction: row;
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color:rgb(96, 96, 96)
+	
 }
+
+.container-mark-intro{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
 
 ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-
-ul li {
-    list-style: none;
+.intro-left-heading{
+	font-weight: bold;
+	margin-bottom: 16px;
 }
 
 ul li a:link {
     text-decoration: none;
     color: #57585b;
 }
+.container-about-intro{
+text-align: center;
 
-ul li a:hover {
-    color: #754EF9;
 }
 
 /* .line-decoration::before {
@@ -75,6 +87,11 @@ ul li a:hover {
     display: flex;
     flex-direction: row;
     padding: 50px 0;
+.about-paragraph{
+	max-width:450px;
+	/* font-size:10px; */
+	margin:0 auto;
+	
 }
 
 .hero-details {
@@ -85,6 +102,10 @@ ul li a:hover {
     justify-content: center;
     align-items: flex-start;
     padding: 0 30px;
+.progress-bar{
+	align-items: right;
+	width:50%;
+	padding:30px;
 }
 
 .hero-image-wrapper {
@@ -93,15 +114,32 @@ ul li a:hover {
     height: auto;
     margin: auto 0;
 
+.intro-left{
+	width:50%;
+	padding: 30px;
 }
 
 .hero-image {
     height: 426px;
+.mark-intro{
+	/* max-width: 605px; */
+	text-align: left;
+	/* padding: 30px; */
+	
 }
 
-h1 {
-    color: #754EF9;
-    text-transform: uppercase;
+.details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 16px;
+	align-items: center;
+}
+.details i{
+	color: rgba(117, 78, 249,0.4);
+	opacity: ;
+	
 }
 
 /* h1 > span {
@@ -117,11 +155,19 @@ h1 {
     display: block;
     font-size: 42px;
     color: #040404;
+.details-elements{
+	width: 50%;
+	margin-top: 5px;
+	display: flex;
 }
 
 .hero-description {
     font-size: 14px;
     color: #5c5c5c;
+.dob{
+	display:flex;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 
 .btn {
@@ -136,12 +182,23 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
 
+.span-dob{
+	font-weight: bold;
 }
 
 a:link {
     text-decoration: none;
+.email{
+	display: flex;
 }
 
+.span-email{
+	font-weight: bold;
+}
+.phone{
+	display:flex;
+	padding-bottom: 10px;
+	padding-left: 10px;
 
 .margin-top-s {
     margin-top: 20px;
@@ -234,25 +291,20 @@ a:link {
     left: 20%;
     bottom: 8%;
     background: #754EF9;
+.span-phone{
+	font-weight: bold;
 }
+.location{
+	display:flex;
+}
+.span-location{
+	font-weight: bold;
+}
+.section-services{
 
-/* About Section Styling */
-
-.AboutMe{
-	font-family: 'Open Sans', sans-serif;
-	font: weight 400px;
+}
+.my-services-heading{
+	font-weight: bold;
 	text-align: center;
 }
-p{
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
-.intro{
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
-
-
-
-
 
