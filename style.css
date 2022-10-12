@@ -22,11 +22,20 @@ html {
     align-items: center;
     justify-content: space-between;
 }
+.section-about-me{
+	padding: 150px 0;
+}
 
+.about-container{
+	width: 1200px;
+	margin: 0 auto;
+}
 .about-intro{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400px;
+	font-weight: 700px;
 	text-align: center;
+	font-size: 28px;
+	margin-bottom: 20px;
 }
 
 p{
@@ -110,9 +119,29 @@ text-align: center;
 
 .progress-bar{
 	align-items: right;
-	width:50%;
+	width:100%;
 	padding:30px;
+	
 }
+
+/* progress{
+	width:100%;
+} */
+
+.progress-bar-html{
+	width: 00px;
+	height: 10px;
+	background-origin: 1px solid black;
+	border-radius: 10px 10px 10px 10px ;
+	background-color: lightgray;
+}
+.line{
+	width: 75%;
+	height: 10px;
+	background-color: #764ef9;
+	transform-origin: left;
+}
+
 
 .hero-image-wrapper {
 /*     height 100%; */
@@ -350,15 +379,64 @@ a:link {
 	font-weight: bold;
 }
 
-/* .section-services{
+.section-services{
+	padding:150px 0;
+	background-color: #F4F4F6;
 
-} */
+} 
+
+.services-container{
+	max-width: 1200px;
+	margin:0 auto;
+
+}
 
 .my-services-heading{
 	font-weight: bold;
 	text-align: center;
+	font-size: 28px;
 }
 
+.my-service-paragraph{
+	max-width:600px;
+	margin:0 auto;
+	text-align: center;
+	margin-top:20px;
+}
+
+.container-services-cards{
+	display: flex; 
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+	gap:25px;
+	margin-top: 60px;
+}
+.services-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:30%;
+	padding:50px;
+	background-color: #ffffff;
+	/* border: lightgray solid 5px; */
+	border-radius: 10px;
+}
+
+.service-item-heading{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.my-service-item-paragraph{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.container-services-cards i{
+	color:#764ef9;
+	font-size: 40px;
+}
 
 /* Section CTA Styling */
 
