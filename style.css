@@ -118,15 +118,14 @@ text-align: center;
 }
 
 .progress-bar{
-	align-items: right;
-	width:100%;
-	padding:30px;
-	
+	width:40%;
+	padding:30px;	
 }
 
-/* progress{
+progress{
+    display: inline-block;
 	width:100%;
-} */
+}
 
 .progress-bar-html{
 	width: 00px;
@@ -135,6 +134,15 @@ text-align: center;
 	border-radius: 10px 10px 10px 10px ;
 	background-color: lightgray;
 }
+
+.progress-line {
+    margin-bottom: 10px;
+}
+
+div label {
+    font-size: 12px;
+}
+
 .line{
 	width: 75%;
 	height: 10px;
@@ -156,7 +164,7 @@ text-align: center;
 }
 
 .hero-image {
-    height: 426px;
+    height: 526px;
 }
 
 .mark-intro{
@@ -199,18 +207,13 @@ text-align: center;
 	width: 50%;
 	margin-top: 5px;
 	display: flex;
+    margin-bottom: 5px;
 }
 
 .hero-description {
     font-size: 16px;
     color: #5c5c5c;
     margin-top: 10px;
-}
-
-.dob{
-	display:flex;
-	padding-bottom: 10px;
-	padding-left: 10px;
 }
 
 .btn {
@@ -234,18 +237,8 @@ a:link {
     text-decoration: none;
 }
 
-.email{
-	display: flex;
-}
-
 .span-email{
 	font-weight: bold;
-}
-
-.phone{
-	display:flex;
-	padding-bottom: 10px;
-	padding-left: 10px;
 }
 
 .margin-top-s {
