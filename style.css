@@ -125,6 +125,7 @@ text-align: center;
 progress{
     display: inline-block;
 	width:100%;
+    accent-color: #754ef9;
 }
 
 .progress-bar-html{
