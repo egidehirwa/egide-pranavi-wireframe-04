@@ -480,6 +480,11 @@ a:link {
     border: #fff solid 1px;
 }
 
+.btn-outline:hover {
+    background: white;
+    color: #754EF9;
+}
+
 
 
 /* Section Recent Works Syling */
